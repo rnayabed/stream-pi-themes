@@ -21,10 +21,6 @@ Label
 .action_box
 {
 	-fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.5) , 20,0.3,0,0);
-}
-
-.action_box_icon_present
-{
 	-fx-border-color:transparent;
 }
 
