@@ -1,0 +1,113 @@
+* {
+    -bg-color : #FFFFFF;
+    -font-color : #000000;
+    -text-field-prompt-text : gray;
+    -text-field-border-color : gray;
+    -icon-color : -font-color;
+}
+
+.dashboard{
+    -fx-background-image: url("wall.png");
+    -fx-background-repeat:stretch;
+    -fx-background-size:  100%  100%;
+    -fx-background-position: bottom ;
+}
+
+Label
+{
+    -fx-text-fill : -font-color ;
+}
+
+.action_box
+{
+ -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.8) , 20,0.3,0,0);
+}
+
+.action_box_icon_present
+{
+	-fx-border-color:transparent;
+}
+
+ 
+
+.dashboard_settings_button
+{
+	-fx-background-color:transparent;
+}
+
+.root {
+    -fx-focus-color: -fx-accent;
+    -fx-base:  -bg-color;
+    -fx-background-color:  -bg-color;
+    -fx-text-fill: -font-color ;
+}
+
+.ikonli-font-icon
+{
+    -fx-icon-color: -icon-color;
+}
+
+.settings_base, .settings_base_vbox, .settings_button_bar{
+    -fx-background-color :  -bg-color;
+}
+
+.dashboard_settings_button_icon
+{
+	-fx-icon-color:white;
+}
+
+
+.settings_base_scroll_pane {
+    -fx-background: -bg-color;
+    -fx-border-color:-bg-color;
+}
+
+.action_grid_pane {
+    -fx-background-color: transparent;
+}
+
+
+.text-field
+{
+    -fx-text-fill: -font-color ;
+    -fx-prompt-text-fill: -text-field-prompt-text;
+    -fx-background-color : -bg-color;
+    -fx-border-width : 0 0 1 0;
+    -fx-border-color: -text-field-prompt-text;
+}
+
+
+
+.alert_pane
+{
+    -fx-background-color : -bg-color;
+    -fx-border-color : -bg-color;
+}
+
+.alert_content_pane
+{
+    -fx-background-color: -bg-color;
+    -fx-padding: 5;
+}
+
+.alert_scroll_pane
+{
+    -fx-background:  -bg-color;
+    -fx-border-color:-bg-color;
+}
+
+.alert_button_bar
+{
+    -fx-background-color:-bg-color;
+}
+
+.combo_box_popup
+{
+    -fx-background: -bg-color;
+    -fx-border-color: -bg-color;
+}
+
+.combo_box_popup_vbox
+{
+    -fx-background-color: -bg-color;
+}
