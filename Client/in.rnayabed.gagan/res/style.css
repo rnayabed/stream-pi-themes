@@ -21,7 +21,9 @@ Label
 .action_box
 {
 	-fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.5) , 20,0.3,0,0);
-	-fx-border-color:transparent;
+	-fx-border-width:2px;
+    	-fx-border-radius:4px;
+    	-fx-border-color:white;
 }
 
 .dashboard_settings_button
